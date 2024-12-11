@@ -26,7 +26,7 @@ jobs:
         run: |
           pytest test.py
       
-      - name: Output Prefect config:
+      - name: Output Prefect config
         run: | 
            prefect config view
            prefect version
