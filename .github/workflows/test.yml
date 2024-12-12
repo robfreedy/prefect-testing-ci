@@ -21,7 +21,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest
           pip install prefect==2.20.15
-          pip install griffe==0.47.0
+          pip install griffe==0.20.0
 
       - name: Run tests
         run: |
