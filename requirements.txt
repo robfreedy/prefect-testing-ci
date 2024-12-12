@@ -1,3 +1,4 @@
 pydantic>=1.10.11
 prefect==2.19.6
 griffe==0.47.0
+pytest==8.0.0
